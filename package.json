@@ -1,0 +1,22 @@
+{
+    "name": "rsrjenkins-nodeapp",
+    "version": "1.0.0",
+    "description": "A Hello World server using Node JS",
+    "main": "main.js",
+    "scripts": {
+        "test": "node test.js",
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rsreddy281/jenkis_docker.git"
+    },
+    "keywords": [
+        "node",
+        "docker",
+        "dockerfile"
+    ],
+    "author": "rsreddy281@gmail.com",
+    "license": "ISC",
+    "devDependencies": { "test": ">=0.6.0" }
+}
