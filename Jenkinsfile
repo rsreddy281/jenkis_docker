@@ -1,13 +1,10 @@
 node {
      def app
      
-  stages {        
-    stage('git_clone') {
-      steps {
-        git 'https://github.com/rsreddy281/jenkis_docker.git'
-      }
-    }      
+  stage('Clone repository') {
+    checkout scm
   }
+     
   stage('Build image') {
     app = docker.build("249121/nodeapp")
   }
