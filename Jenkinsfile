@@ -7,7 +7,7 @@ node {
         git 'https://github.com/rsreddy281/jenkis_docker.git'
       }
     }      
-  
+  }
   stage('Build image') {
     app = docker.build("249121/nodeapp")
   }
